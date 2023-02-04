@@ -1,18 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T13:18:01.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PHYiIYYtE0pp4V_VprD3" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-04T09:15:01.812Z" agent="5.0 (Linux; Android 10; SNE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36" etag="yCkmKudWOYu_hCmKoKI4" version="20.8.16" type="github">
   <diagram name="Страница 1" id="90SoNImV1iq6t1UVwjdc">
-    <mxGraphModel dx="1073" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1087" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rg27a8TC0TxukL3ixHbt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rg27a8TC0TxukL3ixHbt-1" target="rg27a8TC0TxukL3ixHbt-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rg27a8TC0TxukL3ixHbt-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="330" y="320" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="rg27a8TC0TxukL3ixHbt-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="130" y="320" width="120" height="120" as="geometry" />
-        </mxCell>
+        <object label="s21_sprintf&lt;br&gt;Читает посимвольно&lt;br&gt;Отправляет в анализатор" Text="Eefgg" id="yQMhPE0NqHok3OaONxob-1">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="390" y="80" width="190" height="130" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&amp;nbsp;Анализатор(символ, ук струк кол аргумент, ук струк специф)&lt;br&gt;" id="yQMhPE0NqHok3OaONxob-2">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="670" y="230" width="190" height="130" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Разбор(ук струк специф ук буфео разбора)&amp;nbsp;" Text="Eefgg" id="yQMhPE0NqHok3OaONxob-3">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="660" y="480" width="190" height="130" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Форматер(ук струк специф, буф форматер, аргум 1, аргум2, аргумОсноной)&amp;nbsp;" Text="Eefgg" id="yQMhPE0NqHok3OaONxob-4">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="340" y="520" width="190" height="130" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Писатель(буфер без формат, буфер с формат)&amp;nbsp;" Text="Eefgg" id="yQMhPE0NqHok3OaONxob-5">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+            <mxGeometry x="140" y="280" width="190" height="130" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
